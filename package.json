@@ -1,5 +1,5 @@
 {
-  "name": "microscope",
+  "name": "python_demos",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,7 +26,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel --presets react src --out-dir build",
-    "browserify": "browserify build/microscope.js -o js/microscope.js",
+    "browserify": "browserify build/python_demos.js -o js/python_demos.js",
     "build": "npm run babel && npm run browserify"
   },
   "author": "",

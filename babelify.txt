@@ -1,2 +1,2 @@
 babel --presets react src --out-dir build
-browserify build/microscope.js -o js/microscope.js
+browserify build/python_demos.js -o js/python_demos.js
